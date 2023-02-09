@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -1 | LC_ALL=C sort --ignore-leading-blanks | sed -e 's,/$,,' | sed -e 's/^./& /' | paste -sd, - | sed -e 's,$,\n,'
