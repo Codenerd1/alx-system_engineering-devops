@@ -1,0 +1,2 @@
+#!/bin/bash
+sort -k 1 -t$'\t' -n -r | uniq -c | sort -rn | head -11 | awk '{print $2}'
