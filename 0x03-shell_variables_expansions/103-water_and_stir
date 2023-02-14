@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(( $(echo "ibase=water; $WATER" | bc) + $(echo "ibase=stir; $STIR" | bc) )) | xxd -r -p | tr '\0' '\n'
+echo "${WATER//water/} ${STIR//stir/} 16 o + p" | dc
