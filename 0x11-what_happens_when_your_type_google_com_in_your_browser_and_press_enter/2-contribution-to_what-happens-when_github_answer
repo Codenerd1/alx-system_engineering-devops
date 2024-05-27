@@ -1,1 +1,5 @@
-https://github.com/Codenerd1/alx-system_engineering-devops/compare/master...my_patch1
+:syntax on
+# My Project
+
+This is my project on what happens when you type "google.com" and press enter
+You can find mor information here: [Link to my Pull request]("https://github.com/alex/what-happens-when/pull/2302")
