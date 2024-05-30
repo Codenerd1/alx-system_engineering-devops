@@ -14,8 +14,8 @@ if ! dpkg -l | grep -q nginx; then
   sudo apt-get install -y nginx
 fi
 # Ensure Nginx is enabled to start at boot and is currently running
-sudo systemctl enable nginx
-sudo systemctl start nginx
+#sudo systemctl enable nginx
+#sudo systemctl start nginx
 
 # Check and update Nginx configuration to listen on port 80 on all IPv4 IPs
 NGINX_CONF="/etc/nginx/sites-available/default"
